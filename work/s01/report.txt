@@ -1,0 +1,5 @@
+In the software engineering class last semester, we used GitHub to collaborate on a project. So to some extent, I am familiar with it. But I know nothing about MarkDown.
+I created a website with my classmates when I was a freshman. 
+But we did it particularly badly. We downloaded a template on a website, and then made changes to various parts based on what we learned. 
+For what I have learned about TIL, first of all, I think I learned to perform code operations in the terminal, and then I awakened my previous knowledge.
+That's all.
