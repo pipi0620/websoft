@@ -1,28 +1,19 @@
-(function () {
-    'use strict';
-
-    let url;
-    url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1260";
-
-    //url = "https://api.scb.se/UF0109/v2/skolenhetsregister/sv/kommun/1081";
-    url = "s03/1260.json";
-    fetch(url)
-        .then((response) => {
-            return response.json();
-        })
-        .then((myJson) => {
-            console.log(myJson);
-        });
-
-    url = "https://rem.dbwebb.se/api/users";
-    fetch(url)
-        .then((response) => {
-            return response.json();
-        })
-        .then((myJson) => {
-            console.log(myJson);
-        });
-
-    console.log('Sandbox is ready!');
-})();
-   
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Do a fetch</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<h1>Fetch a school of my liking</h1>
+<div id="content">
+  <p>Forsärlans Miljöskola</p>
+    <table id="table"></table>
+</div>
+<button id="button">
+    Click
+</button>
+<script src="js/main.js"></script>
+</body>
+</html>
