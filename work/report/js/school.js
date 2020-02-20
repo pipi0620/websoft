@@ -22,7 +22,9 @@
             schools = myJson;
         });
         btn.onclick = function(){
+
         var data = document.getElementById('table');
+
         schools.Skolenheter = schools.Skolenheter.filter(function (a){
             return a.Skolenhetsnamn ==="Hobyskolan";
         });
