@@ -4,9 +4,9 @@
 
 "use strict";
 
-class Dice {
+class Lotto {
     constructor() {
-        this.dice = null;
+        this.lotto = null;
     }
 
     /**
@@ -16,9 +16,9 @@ class Dice {
      *
      * @returns {integer} The value of the rolled dice min=1 and max=faces.
      */
-    roll(faces=6) {
-        this.dice = Math.floor(Math.random() * faces + 1);
-        return this.dice;
+    roll(faces=35) {
+        this.lotto = Math.floor(Math.random() * faces + 1);
+        return this.lotto;
     }
 
     /**
@@ -27,7 +27,7 @@ class Dice {
      * @returns {integer} The value of the last rolled dice.
      */
     lastRoll() {
-        return this.dice;
+        return this.lotto;
     }
 
     /**
@@ -36,8 +36,8 @@ class Dice {
      * @returns {string} The value of the last rolled dice.
      */
     toString() {
-        return this.dice;
+        return this.lotto;
     }
 }
 
-module.exports = Dice;
+module.exports = Lotto;

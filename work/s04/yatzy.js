@@ -4,7 +4,7 @@
 
 "use strict";
 
-let Dice = require("./dice.js");
+let Dice = require("./a04/route/lotto.js");
 
 // Prepare a dice hand to hold the dices (its an array)
 let hand = [];
