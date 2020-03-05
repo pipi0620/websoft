@@ -29,6 +29,17 @@
             return a.Skolenhetsnamn ==="Hobyskolan";
         });
         data.innerHTML = JSON.stringify(schools.Skolenheter,0,4);
-    }
+            for(var i=0;i<schools.length;i++){
+                var row=data.insertRow(data.rows.length);
+                var c1=row.insertCell(0);
+                c1.innerHTML=schools[i].Skolenhetskod;
+                var c2=row.insertCell(1);
+                c2.innerHTML=schools[i].Skolenhetsnamn;
+                var c3=row.insertCell(2);
+                c3.innerHTML=schools[i].Kommunkod;
+                var c4=row.insertCell(3);
+                c4.innerHTML=schools[i].PeOrgNr;
+            }
+        }
     console.log('All ready!');
 })();
