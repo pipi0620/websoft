@@ -19,10 +19,9 @@
                 myJson.Skolenheter = myJson.Skolenheter.filter(function(a){
                     return a.Skolenhetsnamn ==="Hobyskolan";
                 });
-                schools = myJson;
 
                 var table=document.getElementById("table");
-                var data=schools.data;
+                var data=myJson.data;
                 for(var i=0;i<data.length;i++) {
                     var row = table.insertRow(table.rows.length);
                     var c1 = row.insertCell(0);
