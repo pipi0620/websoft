@@ -29,16 +29,16 @@
             return a.Skolenhetsnamn ==="Hobyskolan";
         });
         data.innerHTML = JSON.stringify(schools.Skolenheter,0,4);
-            for(var i=0;i<schools.length;i++){
+            for(var i=0;i<data.length;i++){
                 var row=data.insertRow(data.rows.length);
                 var c1=row.insertCell(0);
-                c1.innerHTML=schools[i].Skolenhetskod;
+                c1.innerHTML=data[i].Skolenhetskod;
                 var c2=row.insertCell(1);
-                c2.innerHTML=schools[i].Skolenhetsnamn;
+                c2.innerHTML=data[i].Skolenhetsnamn;
                 var c3=row.insertCell(2);
-                c3.innerHTML=schools[i].Kommunkod;
+                c3.innerHTML=data[i].Kommunkod;
                 var c4=row.insertCell(3);
-                c4.innerHTML=schools[i].PeOrgNr;
+                c4.innerHTML=data[i].PeOrgNr;
             }
         }
     console.log('All ready!');
