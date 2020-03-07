@@ -1,3 +1,6 @@
+
+<?php require __DIR__ . "/header.php" ?>
+
 <?php
 
 require "config.php";
@@ -57,3 +60,5 @@ EOD;
 
     </table>
 <?php endif; ?>
+<?php require __DIR__ . "/footer.php" ?>
+

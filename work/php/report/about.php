@@ -1,5 +1,5 @@
 
-
+<?php require __DIR__ . "/view/header.php" ?>
 <article>
 
 <h1>About</h1>
