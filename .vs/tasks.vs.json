@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "任务-Program",
+      "appliesTo": "work/s07/console/menu/Program.cs",
+      "type": "launch"
+    }
+  ]
+}
