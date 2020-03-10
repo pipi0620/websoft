@@ -19,7 +19,7 @@ namespace menu
 
         private static bool MainMenu()
         {
-            Console.Clear();
+
             Console.WriteLine("Choose an option:");
             Console.WriteLine("1) Reverse String");
             Console.WriteLine("2) Remove Whitespace");
@@ -49,7 +49,7 @@ namespace menu
  
         private static void ReverseString()
         {
-            Console.Clear();
+
             Console.WriteLine("Reverse String");
  
             char[] charArray = CaptureInput().ToCharArray();
@@ -59,7 +59,7 @@ namespace menu
  
         private static void RemoveWhitespace()
         {
-            Console.Clear();
+
             Console.WriteLine("Remove Whitespace");
  
             DisplayResult(CaptureInput().Replace(" ", ""));
