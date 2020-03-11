@@ -3,6 +3,7 @@ using System.IO;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Collections.Generic ;
+using System.Data;
 
 namespace console
 {
@@ -45,7 +46,7 @@ namespace console
         
  
         private static void ViewAccounts()
-        {
+        {          
             var accounts = ReadAccounts();
             Console.WriteLine("Show all accounts ");
             foreach (var account in accounts) {
@@ -63,13 +64,17 @@ namespace console
                         PropertyNameCaseInsensitive = true
                     }
                 );
-
+                
+           
                 //Console.WriteLine(json[0]);
                 return json;
            
                 }
 
             }
+
+
+
             Console.Write("\r\nPress Enter to return to Main Menu");
             Console.ReadLine();
         }

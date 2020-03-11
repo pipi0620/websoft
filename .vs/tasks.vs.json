@@ -5,6 +5,11 @@
       "taskName": "任务-Program",
       "appliesTo": "work/s07/console/menu/Program.cs",
       "type": "launch"
+    },
+    {
+      "taskLabel": "任务-websoft",
+      "appliesTo": "/",
+      "type": "launch"
     }
   ]
 }
