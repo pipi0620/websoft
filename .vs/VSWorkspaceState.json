@@ -3,8 +3,10 @@
     "",
     "\\work",
     "\\work\\s07",
-    "\\work\\s07\\console"
+    "\\work\\s07\\webapp",
+    "\\work\\s07\\webapp\\Pages",
+    "\\work\\s07\\webapp\\Pages\\Shared"
   ],
-  "SelectedNode": "\\work\\s07\\console\\Program.cs",
+  "SelectedNode": "\\work\\s01",
   "PreviewInSolutionExplorer": false
 }
