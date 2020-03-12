@@ -1,3 +1,7 @@
+/**
+ * A function to wrap it all in.
+ */
+
 (function () {
     'use strict';
     let url;
@@ -19,23 +23,20 @@
         });
     btn.onclick = function(){
 
-        var data = document.getElementById('table');
+        var table = document.getElementById('table');
 
-        schools.Skolenheter = schools.Skolenheter.filter(function (a){
-            return a.Skolenhetsnamn ==="Hobyskolan";
-        });
-        data.innerHTML = JSON.stringify(schools.Skolenheter,0,4);
-        for(var i=0;i<data.length;i++){
-            var row=data.insertRow(data.rows.length);
+        for(var i=0;i<schools.Skolenheter.length;i++){
+            var row=table.insertRow(table.rows.length);
             var c1=row.insertCell(0);
-            c1.innerHTML=data[i].Skolenhetskod;
+            c1.innerHTML=schools.Skolenheter[i].Skolenhetskod;
             var c2=row.insertCell(1);
-            c2.innerHTML=data[i].Skolenhetsnamn;
+            c2.innerHTML=schools.Skolenheter[i].Skolenhetsnamn;
             var c3=row.insertCell(2);
-            c3.innerHTML=data[i].Kommunkod;
+            c3.innerHTML=schools.Skolenheter[i].Kommunkod;
             var c4=row.insertCell(3);
-            c4.innerHTML=data[i].PeOrgNr;
+            c4.innerHTML=schools.Skolenheter[i].PeOrgNr;
         }
+
     }
     console.log('All ready!');
 })();

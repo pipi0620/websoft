@@ -1,15 +1,17 @@
 html {
     overflow-y: scroll;
+   /* position: fixed;*/
+    overflow-x: hidden;
 }
 
 
 .cat {
-    position: relative;
-    width: 342px;
-    height: 256px;
+    position: absolute;
+    width: 256px;
+    height: 192px;
     border: 1px solid black;
     background-image: url(../img/cat.jpg);
-    background-size: 342px;
+    background-size: 256px;
     top: 200px;
     left: 10px;
 

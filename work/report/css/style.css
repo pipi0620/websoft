@@ -81,13 +81,13 @@ tr{
     height: 200px;
     background-color: #009e60;
 }
-.aboutset{
+
+.aboutset {
     width:550px;
     margin: 50px auto;
 }
 
-
- .meset{
+ .meset {
      width:730px;
      height: 450px;
      margin: 50px auto;
@@ -95,28 +95,31 @@ tr{
      border: solid 2px gray;
      overflow: hidden;
  }
-.myimg{
+
+.myimg {
     width: 288px;
     float: left;
 }
-.myimg img{
+
+.myimg img {
     display: block;
     width: 100%;
 }
-.metext{
+
+.metext {
     float: right;
     width: 380px;
     color: black;
 }
 
-
- .report{
+ .report { 
      width:1000px;
      border-radius: 50px;
      border: solid 2px gray;
      margin:50px auto;
  }
-.reporttext{
+
+.reporttext {
     width: 900px;
     margin:50px;
 }

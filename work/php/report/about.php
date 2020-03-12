@@ -1,5 +1,20 @@
 
-<?php require __DIR__ . "/view/header.php" ?>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title><?= $pageTitle ?></title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
+
+
+</head>
+
+<body>
+<?php
+$pageTitle="About";
+ require __DIR__ . "/view/header.php" ?>
+
 <article>
 
 <h1>About</h1>
@@ -14,4 +29,5 @@
 <p><a href="https://github.com/pipi0620/websoft">my forked course repo on GitHub</a></p>
 </div>
 </article>
+
 <?php require __DIR__ . "/view/footer.php" ?>

@@ -1,5 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>About this site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
 
+
+</head>
+
+<body>
 <?php require __DIR__ . "/view/header.php" ?>
+
+
+
 <article>
 
 <h1>A short presentation about myself</h1>

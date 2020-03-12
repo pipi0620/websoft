@@ -31,6 +31,7 @@ namespace console
             switch (Console.ReadLine())
             {
                 case "1":
+                    CreateTableTitle();
                     ViewAccounts();
                     return true;
                 case "2":
@@ -48,10 +49,14 @@ namespace console
         private static void ViewAccounts()
         {          
             var accounts = ReadAccounts();
-            Console.WriteLine("Show all accounts ");
+            
             foreach (var account in accounts) {
-                Console.WriteLine(account);
+                CreatTableRow(account);
             }
+             static void CreatTableRow(Account account){
+             Console.WriteLine(account.Display());
+             Console.WriteLine("+--------+---------+---------+------+");
+        }
              static IEnumerable<Account> ReadAccounts(){
                 String file = "../data/account.json";
                 using (StreamReader r = new StreamReader(file))
@@ -63,21 +68,34 @@ namespace console
                     new JsonSerializerOptions {
                         PropertyNameCaseInsensitive = true
                     }
-                );
-                
+                );           
            
                 //Console.WriteLine(json[0]);
                 return json;
            
                 }
-
             }
-
-
 
             Console.Write("\r\nPress Enter to return to Main Menu");
             Console.ReadLine();
+
         }
+
+        private static void CreateTableTitle(){
+        Console.WriteLine("Show all accounts ");     
+        Console.WriteLine("+--------+---------+---------+------+");
+        string strNum = "Number";
+        string strBalance = "Balance";
+        string strLabel = "Label";
+        string strOwner = "Owner";
+        
+        var tableTitle=$"|{strNum.PadRight(8)}|{strBalance.PadRight(9)}|{strLabel.PadRight(9)}|{strOwner.PadRight(6)}|";
+            Console.WriteLine(tableTitle);
+            Console.WriteLine("+--------+---------+---------+------+");
+        }
+
+       
+          
  public class Account
     {
         public int Number { get; set; }
@@ -88,7 +106,12 @@ namespace console
         public override string ToString() {
             return JsonSerializer.Serialize<Account>(this);
         }
+        public string Display(){
+        return $"|{Number.ToString().PadRight(8)}|{Balance.ToString().PadRight(9)}|{Label.PadRight(9)}|{Owner.ToString().PadRight(6)}|";
+        }
     }
+
+        
  
         private static void ByNumber()
         {
