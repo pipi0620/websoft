@@ -12,8 +12,7 @@ using Microsoft.Extensions.Hosting;
 using webapp.Models;
 using webapp.Services;
 
-
-namespace webapp
+  namespace webapp
 {
     public class Startup
     {
@@ -53,8 +52,8 @@ namespace webapp
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapGet("/accounts",(context)=>{
-                var accounts = app.ApplicationServices.GetService<JsonFileAccountService>().GetAccounts;
+                endpoints.MapGet("/accounts", (context) => {
+                    var accounts = app.ApplicationServices.GetService<JsonFileAccountService>().GetAccounts();
                     var json = JsonSerializer.Serialize<IEnumerable<Account>>(accounts);
                     return context.Response.WriteAsync(json);
                 });

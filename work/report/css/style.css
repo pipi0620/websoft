@@ -8,11 +8,12 @@ html {
 body {
 
     background: #fff;
-    color: green;
+    color: black;
 }
 
 h1 {
     text-align: center;
+    color: green;
 }
 
 h3 {
@@ -31,13 +32,16 @@ h3 {
     border-radius: 30px;
 }
 
+#button{
+    border-radius: 10px;
+}
 
-
-td{
+th{
     border: 1px solid #ddd;
     padding: 6px 6px 6px 12px;
     color: #4f6b72;
     text-align: center;
+
 }
 
 tr{
@@ -46,7 +50,9 @@ tr{
     color: #4f6b72;
     text-align: center;
     background: #d3d3d3;
+
 }
+
 
 .flag {
     position: relative;
@@ -75,3 +81,45 @@ tr{
     height: 200px;
     background-color: #009e60;
 }
+.aboutset{
+    width:550px;
+    margin: 50px auto;
+}
+
+
+ .meset{
+     width:730px;
+     height: 450px;
+     margin: 50px auto;
+     border-radius:  20px;
+     border: solid 2px gray;
+     overflow: hidden;
+ }
+.myimg{
+    width: 288px;
+    float: left;
+}
+.myimg img{
+    display: block;
+    width: 100%;
+}
+.metext{
+    float: right;
+    width: 380px;
+    color: black;
+}
+
+
+ .report{
+     width:1000px;
+     border-radius: 50px;
+     border: solid 2px gray;
+     margin:50px auto;
+ }
+.reporttext{
+    width: 900px;
+    margin:50px;
+}
+
+
+
