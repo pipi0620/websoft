@@ -16,7 +16,7 @@
 
 <article>
 
-<h1>A short presentation about myself</h1>
+<h1 class="place">A short presentation about myself</h1>
 <div class="meset">
 
 <div class="myimg"><img src="img/me.jpg"  alt="Me on an image" >

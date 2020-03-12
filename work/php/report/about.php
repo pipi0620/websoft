@@ -17,7 +17,7 @@ $pageTitle="About";
 
 <article>
 
-<h1>About</h1>
+<h1 class="place">About</h1>
 <div class="aboutset">
 <p>This website is part of the course websoft <a href="https://hkr.instructure.com/courses/2432">course page on HKR website</a></p>
 

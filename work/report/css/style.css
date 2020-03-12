@@ -94,6 +94,7 @@ tr{
      border-radius:  20px;
      border: solid 2px gray;
      overflow: hidden;
+     background-color: #ffdf7e;
  }
 
 .myimg {
@@ -117,6 +118,7 @@ tr{
      border-radius: 50px;
      border: solid 2px gray;
      margin:50px auto;
+     background-color: #ecdbb6;
  }
 
 .reporttext {
@@ -124,5 +126,24 @@ tr{
     margin:50px;
 }
 
+.reportstyle{
+
+    transform: scale(1.2);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+a{
+
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+
+}
 
 

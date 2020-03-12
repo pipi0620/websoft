@@ -12,8 +12,11 @@ body {
 }
 
 h1 {
+    color: black;
+}
+
+.place {
     text-align: center;
-    color: green;
 }
 
 h3 {
@@ -38,19 +41,26 @@ h3 {
 
 th{
     border: 1px solid #ddd;
-    padding: 6px 6px 6px 12px;
-    color: #4f6b72;
+
+    color: #171a1d;
     text-align: center;
+    border-collapse:collapse;
 
 }
 
-tr{
+tr {
     border: 1px solid #ddd;
-    padding: 6px 6px 6px 12px;
-    color: #4f6b72;
-    text-align: center;
-    background: #d3d3d3;
 
+    color: #171a1d;
+    text-align: center;
+    background: #b1dfbb;
+    border-collapse:collapse;
+
+}
+
+td {
+    text-align:center;
+    border-collapse:collapse;
 }
 
 
@@ -87,14 +97,15 @@ tr{
     margin: 50px auto;
 }
 
- .meset {
-     width:730px;
-     height: 450px;
-     margin: 50px auto;
-     border-radius:  20px;
-     border: solid 2px gray;
-     overflow: hidden;
- }
+.meset {
+    width:730px;
+    height: 450px;
+    margin: 50px auto;
+    border-radius:  20px;
+    border: solid 2px gray;
+    overflow: hidden;
+    background-color: #ffdf7e;
+}
 
 .myimg {
     width: 288px;
@@ -112,17 +123,35 @@ tr{
     color: black;
 }
 
- .report { 
-     width:1000px;
-     border-radius: 50px;
-     border: solid 2px gray;
-     margin:50px auto;
- }
+.report {
+    width:1000px;
+    border-radius: 50px;
+    border: solid 2px gray;
+    margin:50px auto;
+    background-color: #ecdbb6;
+}
 
 .reporttext {
     width: 900px;
     margin:50px;
 }
 
+.reportstyle{
 
+    transform: scale(1.2);
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 10px;
+}
 
+a{
+
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+
+}

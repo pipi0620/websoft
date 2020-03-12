@@ -13,7 +13,7 @@
 <?php require __DIR__ . "/view/header.php" ?>
 
 <header>
-    <h1>A report from the course Software Development for the Web</h1>
+    <h1 class="place">A report from the course Software Development for the Web</h1>
 </header>
 
 <div class="report">
