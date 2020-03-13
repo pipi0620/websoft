@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>About this site</title>
+    <title>Search</title>
     <link rel="stylesheet" href="report/css/style.css">
     <link rel="icon" href="favicon.ico">
 
