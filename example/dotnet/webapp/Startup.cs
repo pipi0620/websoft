@@ -57,8 +57,10 @@ namespace webapp
                     var json = JsonSerializer.Serialize<IEnumerable<Account>>(accounts);
                     return context.Response.WriteAsync(json);
                 });
+               
                 endpoints.MapControllers();
             });
+
         }
     }
 }

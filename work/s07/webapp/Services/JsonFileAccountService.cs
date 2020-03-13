@@ -33,5 +33,17 @@ namespace webapp.Services
                     });
             }
         }
+        public Account GetAccount(int id)
+        {
+            foreach(Account account in GetAccounts())
+            {
+                if (account.Number == id)
+                {
+                    return account;
+                }
+
+            }
+            return null;
+        }
     }
 }
