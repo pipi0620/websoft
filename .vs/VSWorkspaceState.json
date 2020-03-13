@@ -1,13 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\example",
+    "\\example\\dotnet",
+    "\\example\\dotnet\\webapp",
+    "\\example\\dotnet\\webapp\\Pages",
     "\\work",
-    "\\work\\php",
     "\\work\\s07",
-    "\\work\\s07\\console",
-    "\\work\\s07\\webapp\\Controllers",
-    "\\work\\s07\\webapp\\Models"
+    "\\work\\s07\\webapp",
+    "\\work\\s07\\webapp\\Models",
+    "\\work\\s07\\webapp\\Pages"
   ],
-  "SelectedNode": "\\work\\php\\search.php",
+  "SelectedNode": "\\work\\s07\\webapp\\Startup.cs",
   "PreviewInSolutionExplorer": false
 }
