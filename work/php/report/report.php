@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>About this site</title>
+    <title>Report</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
 
@@ -142,7 +142,31 @@ That's all.</p>
 
 <section>
 <h2>S07</h2>
+<p>
+1.Try to explain the platform .NET (C#, ASP.NET) to a skilled programmer, but newbie to this Microsoft technology.<br>
+<ul>
+    <li>ASP.NET is a technology used to quickly create dynamic Web sites, not languages. It uses C# as the development language.</li>
+    <li>C# is an object-oriented programming language</li>
+    <li>.NET is just a framework. All programming languages in .NET, such as programs written in c#, must run under the .NET framework.</li>
+</ul>
+</p>
+    <p>
+        2.Elaborate by comparing .NET technologies with the other technologies we learned during the course.<br>
+    PHP VS .NET
+<ul>
+    <li>Generally .NET is for large systems, PHP is personally oriented. </li>
+    <li>Due to some shortcomings of PHP itself, for example, the database interface provided by PHP is not uniform, which makes it unsuitable for application in e-commerce.</li>
+    <li>ASP.NET hides most of the details of database operations, which makes it very convenient for applications to connect to Access or SQL Server.</li>
+</ul>
+    </p>
+    <p>
+        3.Describe how you took on the coding exercise, what grade did you aim for and are you satisfied with the result?<br>
+        Watch your video on YouTube first, and then have a look at your example code. I am ain for grade 3.
+    </p>
+    <p>
+        4.TIL: It seems that show Json file into text table is tough. I have a lot to do with the web application.
 
+    </p>
 </section>
 
 <section>

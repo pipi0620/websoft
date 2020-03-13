@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title><?= $pageTitle ?></title>
+    <title>About</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="favicon.ico">
 
@@ -11,9 +11,7 @@
 </head>
 
 <body>
-<?php
-$pageTitle="About";
- require __DIR__ . "/view/header.php" ?>
+<?php require __DIR__ . "/view/header.php" ?>
 
 <article>
 
